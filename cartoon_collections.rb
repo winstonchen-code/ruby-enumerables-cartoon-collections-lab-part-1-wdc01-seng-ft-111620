@@ -13,6 +13,8 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.each_with_index do |title, index|
     index = 1 
+    row_index = 0
+while row_index < src.count do
     puts "#{index} #{title}"
   end
   
