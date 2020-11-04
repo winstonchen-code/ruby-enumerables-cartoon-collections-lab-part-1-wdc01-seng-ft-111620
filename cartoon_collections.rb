@@ -15,6 +15,7 @@ def list_dwarves(array)
     index = 1 
     while index < array.length do
       index += 1 
+    end
     puts "#{index} #{title}"
   end
 end
