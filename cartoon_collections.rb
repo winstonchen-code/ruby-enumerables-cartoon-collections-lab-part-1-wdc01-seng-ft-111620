@@ -14,6 +14,7 @@ def list_dwarves(array)
   array.each_with_index do |title, index|
     index = 1 
     while index < array.length do
+      
       index += 1 
     end
     puts "#{index} #{title}"
